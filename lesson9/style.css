@@ -1,0 +1,42 @@
+.first{
+    padding: 20px;
+    display: block;
+    background-color: red;
+    width: 500px;
+}
+.text{
+    padding: 20px;
+    display: none;
+}
+.first:hover .text{
+    display: inherit;
+}
+.xz{
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    border-radius: 40% 22% 32% 37%/29% 44% 22% 33%;
+    border: 10px solid rgba(64, 195, 221, 0.897);
+    box-shadow: -5px -10px 15px rgba(0, 0, 0, .1)
+    5px 5px 7px rgba rgb(219, 87, 168)
+    inset -5px -5px 8px rgba(25, 203, 90, 0.2)
+    inset 5px 9px 18px rgb(105, 236, 212);
+}
+.h1{
+    height: 600px;
+    width: 335px;
+    background: url(lesson9/img/scroll_top.jpg) no-repeat center top,
+                url(lesson9/img/scroll_bottom.jpg) no-repeat center bottom,
+                url(lesson9/img/scroll_middle.jpg) repeat-y center top;
+                padding: 70px 0 60px 0;
+                margin-top: 115px; 
+}
+.h2{
+    display: none;
+    pad: 50px;
+}
+.h3:hover .h1{
+    display: inherit;
+}
+

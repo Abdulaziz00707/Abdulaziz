@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Segoe Wp";
+    src: ("fontfase/ofont.ru_Segoe Wp Light.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Segoe Wp";
+    src: ("fontfase/ofont.ru_Segoe UI Semibold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
